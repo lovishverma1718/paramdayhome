@@ -1,0 +1,133 @@
+export interface ActivityItem {
+  id: string;
+  image: string;
+  title: string;
+  subtitle: string;
+  description: string;
+  category: 'cognitive' | 'creativity' | 'motor' | 'language' | 'social';
+  benefits: string[];
+  ageSuitability: string;
+}
+
+export const ACTIVITIES_DATA: ActivityItem[] = [
+  {
+    id: 'sensory-tactile',
+    image: '/images/1.webp',
+    title: 'Sensory & Tactile Exploration',
+    subtitle: 'Hands-on sensory bins & texture discovery',
+    description: 'Children engage their senses through rice bins, kinetic sand, water tables, and natural wood blocks. Sensory play builds brain connections essential for complex learning.',
+    category: 'cognitive',
+    benefits: ['Fine Motor Skills', 'Cognitive Growth', 'Focus & Calmness', 'Scientific Inquiry'],
+    ageSuitability: '12 Months to 4 Years',
+  },
+  {
+    id: 'math-learning',
+    image: '/images/3.webp',
+    title: 'Interactive Math & Counting',
+    subtitle: 'Early numeracy with hands-on manipulative tools',
+    description: 'Using colorful wooden beads, counting boards, and pattern sorting cards, children learn basic addition, spatial relations, and mathematical logic in a joyful atmosphere.',
+    category: 'cognitive',
+    benefits: ['Cognitive Growth', 'Problem Solving', 'Spatial Awareness', 'Confidence'],
+    ageSuitability: '2 to 5 Years',
+  },
+  {
+    id: 'learning-materials',
+    image: '/images/5.webp',
+    title: 'Montessori Inspired Learning Materials',
+    subtitle: 'Self-directed educational games & puzzles',
+    description: 'Our curated collection of non-toxic wooden Montessori toys fosters self-discipline, concentration, and independent problem-solving at each child’s natural pace.',
+    category: 'cognitive',
+    benefits: ['Independence', 'Problem Solving', 'Fine Motor Control', 'Self-Regulation'],
+    ageSuitability: '1 to 5 Years',
+  },
+  {
+    id: 'interactive-learning',
+    image: '/images/6.webp',
+    title: 'Interactive Group Learning',
+    subtitle: 'Collaborative problem solving & sharing',
+    description: 'Guided small group exercises encourage children to listen, share ideas, take turns, and express their thoughts confidently in a supportive peer group.',
+    category: 'social',
+    benefits: ['Social Confidence', 'Language & Speech', 'Empathy', 'Teamwork'],
+    ageSuitability: '18 Months to 6 Years',
+  },
+  {
+    id: 'creative-play',
+    image: '/images/7.webp',
+    title: 'Imaginative & Creative Free Play',
+    subtitle: 'Open-ended dramatic play & storytelling',
+    description: 'Children build imaginary worlds with wooden train tracks, dollhouses, costume dress-up, and mini kitchens, building empathy and narrative communication.',
+    category: 'creativity',
+    benefits: ['Creativity', 'Language & Speech', 'Emotional Resilience', 'Social Skills'],
+    ageSuitability: 'All Ages',
+  },
+  {
+    id: 'counting-activity',
+    image: '/images/11.webp',
+    title: 'Tactile Counting & Shape Matching',
+    subtitle: 'Pattern recognition & color sorting',
+    description: 'Interactive boards that teach shape symmetry, color gradient matching, and ordinal numbers through physical touch and tactile placement.',
+    category: 'cognitive',
+    benefits: ['Fine Motor', 'Cognitive Growth', 'Visual Discrimination', 'Hand-Eye Coordination'],
+    ageSuitability: '2 to 4 Years',
+  },
+  {
+    id: 'toy-bus-counting',
+    image: '/images/13.webp',
+    title: 'The Yellow School Bus Counting Game',
+    subtitle: 'Transport play & numerical sequencing',
+    description: 'A favorite dayhome activity where children board passenger figures into wooden vehicles, practicing item counting and narrative roleplay.',
+    category: 'cognitive',
+    benefits: ['Numerical Literacy', 'Language Development', 'Fine Motor', 'Cooperation'],
+    ageSuitability: '2 to 6 Years',
+  },
+  {
+    id: 'healthy-food-learning',
+    image: '/images/14.webp',
+    title: 'Nutrition & Healthy Food Education',
+    subtitle: 'Learning about fruits, vegetables & table manners',
+    description: 'Through felt vegetable gardens and daily mealtime conversations, children learn where food comes from, healthy habits, and table etiquette.',
+    category: 'social',
+    benefits: ['Healthy Life Habits', 'Vocabulary', 'Independence', 'Fine Motor'],
+    ageSuitability: 'All Ages',
+  },
+  {
+    id: 'fine-motor-skills',
+    image: '/images/16.webp',
+    title: 'Fine Motor Lacing & Threading',
+    subtitle: 'Pincer grip refinement & pre-writing preparation',
+    description: 'Bead threading, button sorting, and pegboard puzzles strengthen small hand muscles, preparing young fingers for pencil grasp and scissors control.',
+    category: 'motor',
+    benefits: ['Fine Motor', 'Pencil Control', 'Patience', 'Hand-Eye Coordination'],
+    ageSuitability: '18 Months to 5 Years',
+  },
+  {
+    id: 'creative-art',
+    image: '/images/17.webp',
+    title: 'Studio Art & Painting Workshops',
+    subtitle: 'Watercolor, fingerpaint & textured collages',
+    description: 'Expressive art sessions using child-safe watercolors, clay modeling, leaf rubbing, and recycled materials where process is celebrated over perfection.',
+    category: 'creativity',
+    benefits: ['Creativity', 'Self-Expression', 'Sensory Awareness', 'Confidence'],
+    ageSuitability: 'All Ages',
+  },
+  {
+    id: 'letter-recognition',
+    image: '/images/19.webp',
+    title: 'Phonics & Alphabet Discovery',
+    subtitle: 'Letter sounds, flashcards & word association',
+    description: 'Interactive phonics games introducing letter sounds, vowel identification, and sight words through playful rhyming and song.',
+    category: 'language',
+    benefits: ['Language & Literacy', 'Phonemic Awareness', 'Cognitive Growth', 'Confidence'],
+    ageSuitability: '3 to 6 Years',
+  },
+  {
+    id: 'writing-practice',
+    image: '/images/20.webp',
+    title: 'Guided Pre-Writing & Calligraphy',
+    subtitle: 'Tracing lines, curve control & name writing',
+    description: 'Chalkboard and dry-erase tracing sheets helping preschoolers master line strokes, curved letters, and writing their own name before kindergarten.',
+    category: 'language',
+    benefits: ['Fine Motor Skills', 'Kindergarten Readiness', 'Focus', 'Self-Esteem'],
+    ageSuitability: '3.5 to 6 Years',
+  },
+];
