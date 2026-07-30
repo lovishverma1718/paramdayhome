@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Ignore raw duplicate heavy PNGs (WebP versions are in public/images)
+/*.png
+/public/images/*.png
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
