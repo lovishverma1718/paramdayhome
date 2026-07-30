@@ -52,7 +52,7 @@ export const Preloader: React.FC = () => {
 
             {/* Logo Image */}
             <motion.img
-              src="/images/logo.png"
+              src="/images/logo.webp"
               alt="Param Dayhome Logo"
               className="w-16 h-16 object-contain relative z-10"
               initial={{ scale: 0.85, opacity: 0.2 }}
